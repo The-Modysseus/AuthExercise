@@ -8,7 +8,8 @@ namespace AuthExercise.Controllers
 	[Route("[controller]")]
 	public class AccountController : ControllerBase
 	{
-		
+		private readonly ApplicationDbContext _context;
+		private readonly ILogger<>
 	}
 
 }
